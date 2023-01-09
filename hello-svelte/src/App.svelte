@@ -1,7 +1,7 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
-  import HelloWorld from './lib/HelloWorld.svelte';
+  import HelloWorld from './lib/HelloWorld.svelte'
 </script>
 
 <main>
