@@ -1,16 +1,16 @@
 <script>
-  import 
-  Todos from "./lib/Todos.svelte";
+  import SimpleTodos from "./lib/SimpleTodos/Todos.svelte";
+  import TodoWithStore from "./lib/TodosWithStore/Todos.svelte";
 </script>
 
 <svelte:head>
-	<title>Todos</title>
-	<meta name="robots" content="noindex nofollow" />
-	<html lang="en" />
+  <title>Todos</title>
+  <meta name="robots" content="noindex nofollow" />
+  <html lang="en" />
 </svelte:head>
 
 <main>
-  <Todos />
+  <SimpleTodos />
+  <hr />
+  <TodoWithStore />
 </main>
-
-

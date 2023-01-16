@@ -29,7 +29,7 @@
   }
 </script>
 
-<h1>Todos</h1>
+<h1>Todos with local State</h1>
 <input type="text" bind:value={input} />
 <button on:click={createTodo}>Create Todo</button>
 <ul>
