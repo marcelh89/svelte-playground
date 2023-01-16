@@ -18,7 +18,7 @@
 />
 <span class:checked={todo.checked}>{todo.name}</span>
 <span on:keydown on:click={removeTodo}>❌</span>
-
+<slot/>
 
 <style>
   .checked {

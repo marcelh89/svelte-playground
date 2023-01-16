@@ -34,6 +34,8 @@
 <button on:click={createTodo}>Create Todo</button>
 <ul>
   {#each todos as todo, index}
-    <li><Todo on:removeTodo={removeTodo} {todo} {index} /></li>
+    <li><Todo on:removeTodo={removeTodo} {todo} {index}>
+        <hr />
+    </Todo></li>
   {/each}
 </ul>
